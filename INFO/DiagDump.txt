@@ -1,0 +1,114 @@
+To learn about the steps after getting your car into diagnostic mode for MECSII equipped vehicles please read Snailman's guide.
+
+A = FEN = trouble code output (engine control computer)
+B = MEN = switch monitor output (engine control computer)
+C = TEN = diagnostic-mode input (engine control computer)
+D = +B = switched battery voltage
+E = GND = ground
+F = FAT = trouble code output (automatic transmission control computer)
+G = FBS = trouble code output (anti-lock brakes (ABS) control computer)
+H = FAC = trouble code output (? not documented for North American vehicles)
+J = FWS = trouble code output (? not documented for North American vehicles)
+K = FSC = trouble code output (cruise (speed) control computer)
+L = - = not used
+M = TAT = diagnostic-mode input (automatic transmission control computer)
+N = TBS = diagnostic-mode input (anti-lock brakes (ABS) control computer)
+P = TAC = diagnostic-mode input (? not documented for North American vehicles)
+Q = TWS = diagnostic-mode input (? not documented for North American vehicles)
+R = TSC = diagnostic-mode input (cruise (speed) control computer)
+S = - = not used
+T = FAB = trouble code output (air-bag diagnostic monitor computer)
+U = IG- = igniter coil output (for connection to external tachometer)
+V = GND = ground
+W = TFA = diagnostic-mode input (? not documented for North American vehicles)
+X = F/P = fuel pump relay coil (ground to activate fuel pump)
+Y = TAB = horn relay
+Z = - = not used
+3 = - = not used
+
+MECS-II (CEL) Check Engine Light codes
+These are the main check engine light codes for MECS-II 626's. You put the car into diagnostic mode by using a jumper wire between the C (TEN) &amp; E (GROUND) pins of the diagnostic box under the hood of your car.
+
+Code = Memory = Circuit Diagnosed
+02 = Yes = 'NE2' crankshaft position sensor
+03 = Yes = 'G' camshaft position sensor
+04 = Yes = 'NE1' camshaft/crankshaft position sensor
+05 = Yes = Knock sensor
+08 = Yes = Volume Air Flow sensor (VAF)
+09 = Yes = Coolant temperature sensor (CTS)
+10 = Yes = Intake air temperature sensor (IAT)
+12 = Yes = Throttle position sensor (TPS)
+14 = Yes = Barometric pressure sensor
+15 = Yes = LHO2S inactivation error
+16 = Yes = Exhaust gas recirculation (EGR) system
+17 = Yes = LHO2S inversion error
+23 = Yes = RHO2S inactivation error
+24 = Yes = RHO2S inversion error
+25 = Yes = Fuel pressure regulator control solenoid
+26 = No = Canister purge solenoid
+28 = No = EGR vacuum solenoid
+29 = No = EGR vent solenoid
+34 = No = Idle air control (IAC) solenoid
+41 = No = VRIS #1 solenoid
+46 = No = VRIS #2 solenoid
+67 = No = LFAN relay (1993 only)
+69 = Yes = ECTF sensor (1993 only)
+
+(HOLD) Automatic Transmission (ATX) Malfunction codes
+Automatic transmission codes can be read by connecting the TAT and GND pins (see above for the location of this pin) and watching the "hold" light on the instrument cluster. The codes are read exactly as they are when reading the engine codes, except that the Hold light flashes, not the Check Engine Light. A summary of the codes and the reasons:
+
+01 = NE1 (crankshaft position sensor)
+06 = Vehicle speed sensor
+12 = Throttle position sensor
+14 = BARO sensor (located within PCME)
+55 = Vehicle speed pulse generator
+56 = ATF thermosensor
+57 = Reduce torque signal 1
+58 = Reduce torque signal 2
+59 = Torque reduced/ECT sensor
+60 = 1-2 shift solenoid valve
+61 = 2-3 shift solenoid valve
+62 = 3-4 shift solenoid valve
+63 = converter lock-up solenoid valve
+64 = 3-2 timing solenoid valve
+65 = converter lock-up valve
+66 = line pressure solenoid valve
+
+(ABS) Anti-Lock Braking System Malfunction codes
+Anti-lock braking (ABS) system codes are read when the TBS and GND pins are connected in the Diagnostic connector (see above). The codes are read, again, like the engine codes, but now on the ABS light on the instrument cluster. A summary of codes and the reasons:
+
+11 = Right front wheel speed sensor or rotor
+12 = Left front wheel speed sensor or rotor
+13 = Right rear wheel speed sensor or rotor
+14 = Left rear wheel speed sensor or rotor
+15 = Wheel speed sensor
+22 = Hydraulic unit harness
+51 = Fail-safe relay
+53 = Motor or motor relay
+61 = ABS control unit
+
+(SRS) Supplemental Restraint System Malfunction codes
+The supplemental restraint (SRS), more commonly known as the "air bag" system will flash the highest priority code on the air-bag lamp on the dash with no need for any pin in the Diagnostic box to be grounded. The codes are read, again, like the engine codes, but now on the Air Bag light on the instrument cluster. A summary of codes and the reasons (NOTE: these are from a 1993 Ford Service Manual. Later models with dual airbags (1994+) may have additional codes not covered here. Email me if you encounter one. Also, I hope but am unsure if these apply to the MX-6...):
+
+In order of priority from highest to lowest:
+- = No air bag lamp: diagnostic monitor (DM), ignition power or bulb circuit
+- = Continuous lamp: DM disconnected or inoperative
+12 = Low battery voltage
+13 = Air bag circuit or crash sensor shorted to ground
+21 = Safing sensor mounted incorrectly
+22 = Safing sensor: output shorted to battery voltage
+23 = Safing sensor input feed or return circuit open
+24 = Open in circuit 944B or low-resistance in crash sensor(s)
+32 = Driver's side air-bag / safing sensor: high resistance or open
+33 = Pin 7 not grounded at DM
+34 = Driver's side air-bag / safing sensor: low resistance or shorted
+35 = Low resistance across pins 8 and 9 of DM
+41 = Crash sensor circuit: high resistance or open
+44 = RH crash sensor not mounted properly
+45 = Center (radiator) crash sensor not mounted properly
+46 = LH crash sensor not mounted properly
+51 = DM internal fuse: blown and short to ground no longer exists
+52 = Backup-power supply: voltage boost fault
+53 = Internal DM fault
+- = Rapid continuous flashing or air-bag lamp: all crash sensors disconnected
+
