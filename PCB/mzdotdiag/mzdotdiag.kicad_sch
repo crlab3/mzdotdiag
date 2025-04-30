@@ -5651,16 +5651,6 @@
 		)
 		(uuid "4339de30-e7b8-4354-a0d7-d16871c135ab")
 	)
-	(label "ESP32_TBS"
-		(at 107.95 72.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "47a79206-6ed4-4794-b9cf-2560f442cc0c")
-	)
 	(label "3.3V"
 		(at 62.23 44.45 90)
 		(effects
@@ -5711,6 +5701,16 @@
 		)
 		(uuid "4fa5437e-32b9-4157-a425-a0d2171975ca")
 	)
+	(label "ESP32_TFA"
+		(at 138.43 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "50288560-faca-4409-a537-07c2f77e5f07")
+	)
 	(label "FEN3V3"
 		(at 266.7 38.1 0)
 		(effects
@@ -5720,16 +5720,6 @@
 			(justify left bottom)
 		)
 		(uuid "59592e1c-b237-49ef-be6f-858ec6629225")
-	)
-	(label "ESP32_TAB"
-		(at 107.95 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5a081f21-caec-493c-bc59-4db146bab120")
 	)
 	(label "FAT"
 		(at 20.32 29.21 180)
@@ -5881,6 +5871,16 @@
 		)
 		(uuid "8b1e68ea-ddfc-4476-ba0f-0a9e71a8d4be")
 	)
+	(label "ESP32_TAB"
+		(at 107.95 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8c068b63-fe1b-4994-9c28-cdfa9ccd86a6")
+	)
 	(label "TAB"
 		(at 201.93 44.45 0)
 		(effects
@@ -5920,6 +5920,16 @@
 			(justify right bottom)
 		)
 		(uuid "9726d5ca-464e-43f2-a732-53b5db4839b5")
+	)
+	(label "ESP32_TBS"
+		(at 121.92 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "974a1a12-5301-452f-8ad6-51343da431c0")
 	)
 	(label "3.3V"
 		(at 247.65 25.4 90)
@@ -6032,7 +6042,7 @@
 		(uuid "ac405230-1d0e-4996-b86b-2a9cadf5948a")
 	)
 	(label "ESP32_TEN"
-		(at 121.92 85.09 0)
+		(at 107.95 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6092,7 +6102,7 @@
 		(uuid "bd215aa4-d877-4b87-80f6-d82535755bce")
 	)
 	(label "ESP32_TSC"
-		(at 121.92 82.55 0)
+		(at 107.95 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6131,16 +6141,6 @@
 		)
 		(uuid "cb381120-7344-4b23-8659-15bc660b1861")
 	)
-	(label "ESP32_TFA"
-		(at 107.95 69.85 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cbba2e3b-ff12-443f-89e4-9616d69ef033")
-	)
 	(label "3.3V"
 		(at 132.08 59.69 90)
 		(effects
@@ -6152,7 +6152,7 @@
 		(uuid "d138cc64-af13-44d3-8f35-5325a8b8230a")
 	)
 	(label "ESP32_TAC"
-		(at 144.78 82.55 0)
+		(at 121.92 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
