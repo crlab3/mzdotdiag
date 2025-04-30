@@ -1541,6 +1541,17 @@
 		)
 		(uuid "36475611-6b0a-4121-8a13-ad5dd242b5a2")
 	)
+	(hierarchical_label "B+_PROT"
+		(shape input)
+		(at 50.8 33.02 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "988d65ab-9b41-4cb1-bbb0-3804956d9ba3")
+	)
 	(hierarchical_label "3.3V"
 		(shape input)
 		(at 143.51 39.37 0)
