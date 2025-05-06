@@ -7073,7 +7073,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" ""
+		(property "Mouser" "356-ESP32WRM32E128PH "
 			(at 85.09 85.09 0)
 			(effects
 				(font
